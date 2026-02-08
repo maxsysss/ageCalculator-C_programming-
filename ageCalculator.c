@@ -4,7 +4,11 @@ int main()
 {
     int cYear;
     int yAge;
-    scanf("Current Year: %d", &cYear);
-    printf("num is: %d\n", cYear);
+    printf("Current Year:");
+    scanf("%d", &cYear);
+    printf("Your birth date:");
+    scanf("%d", &yAge);
+    printf("Your age is: %d\n", cYear-yAge);
+
     return 0;
 }
